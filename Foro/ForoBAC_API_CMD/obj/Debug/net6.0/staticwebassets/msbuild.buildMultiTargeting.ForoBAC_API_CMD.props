@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ForoBAC_API_CMD.props" />
+</Project>

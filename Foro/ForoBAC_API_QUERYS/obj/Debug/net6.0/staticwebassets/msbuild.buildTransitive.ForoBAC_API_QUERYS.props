@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ForoBAC_API_QUERYS.props" />
+</Project>

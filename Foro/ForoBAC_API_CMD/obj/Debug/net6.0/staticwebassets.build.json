@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "kENtFwLJzCKM/P6zmMa8cA0fgSB3m6XvUyfIhREOl3w=",
+  "Source": "ForoBAC_API_CMD",
+  "BasePath": "_content/ForoBAC_API_CMD",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\rudyr\\OneDrive\\Escritorio\\Foro\\ForoBAC_API_QUERYS\\ForoBAC_API_QUERYS.csproj",
+      "Version": 2,
+      "Source": "ForoBAC_API_QUERYS",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

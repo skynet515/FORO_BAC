@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+     var usuario = (Foro.Models.ContentSessionExterno)Session[System.Configuration.ConfigurationManager.AppSettings["SesionHelperEnLinea"] as string];
+    var idUsuario = 0;
+}
+
+<main>
+    <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
+        <div class="container-xxl px-4">
+            <div class="page-header-content pt-3">
+                <div class="row align-items-center justify-content-between">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto mt-4">
+                            <h1 class="page-header-title">
+                                Preguntas
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="row">
+        <div class="container col-12">
+            @if (usuario.Usuario.idRol == 1)
+            {
+                <input type="hidden" id="idRol" value="@usuario.Usuario.idRol" />
+                <input type="hidden" id="idUsuario" value="@usuario.Usuario.idUsuario" />
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mt-2">
+                            <a class="btn btn-success" href="@Url.Action("AgregarPregunta", "Home")"><i class="fas fa-plus"></i> Hacer una pregunta</a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div class="card">
+                <div class="card mb-auto mt-2">
+                    <div class="card-header">Preguntas del Foro</div>
+                    <div class="card-body p-2">
+                        <div class="datatable" style="padding-top:20px;">
+                            <table class="table table-bordered table-hover" width="100%" id="tblPreguntas">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Pregunta</th>
+                                        <th>Usuario</th>
+                                        <th>Acciones</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody id="tbPreguntas"></tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+@Scripts.Render("~/Content/Api")

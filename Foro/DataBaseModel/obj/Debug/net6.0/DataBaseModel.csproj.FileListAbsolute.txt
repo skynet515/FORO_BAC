@@ -1,0 +1,14 @@
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\bin\Debug\net6.0\DataBaseModel.deps.json
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\bin\Debug\net6.0\DataBaseModel.runtimeconfig.json
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\bin\Debug\net6.0\DataBaseModel.dll
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\bin\Debug\net6.0\DataBaseModel.pdb
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\DataBaseModel.csproj.AssemblyReference.cache
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\DataBaseModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\DataBaseModel.AssemblyInfoInputs.cache
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\DataBaseModel.AssemblyInfo.cs
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\DataBaseModel.csproj.CoreCompileInputs.cache
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\DataBaseModel.dll
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\refint\DataBaseModel.dll
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\DataBaseModel.pdb
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\DataBaseModel.genruntimeconfig.cache
+C:\Users\rudyr\OneDrive\Escritorio\Foro\DataBaseModel\obj\Debug\net6.0\ref\DataBaseModel.dll
